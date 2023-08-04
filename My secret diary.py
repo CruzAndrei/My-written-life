@@ -4,8 +4,11 @@
 #open text file entitled "mylife.txt" as write
 def write():
     with open("mylife.txt", "w") as my_story:
-#Create loop function
-#Create input for the user
+        #Create loop function
+        while True:
+            #Create input for the user
+            line = input("Enter a line: ")
+            break
 #write in mylife.txt            
 #ask user to continue or not
 #create if-else function
