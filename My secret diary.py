@@ -8,8 +8,10 @@ def write():
         while True:
             #Create input for the user
             line = input("Enter a line: ")
-            break
-#write in mylife.txt            
-#ask user to continue or not
+            #write in mylife.txt  
+            my_story.write(line)
+            #ask user to continue or not
+            
 #create if-else function
+            break
 write()
