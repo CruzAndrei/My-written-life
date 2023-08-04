@@ -11,7 +11,8 @@ def write():
             #write in mylife.txt  
             my_story.write(line)
             #ask user to continue or not
-            
-#create if-else function
-            break
+            more_line = input("Are there more lines? Enter Y for yes and N for no: ")            
+            #create if-else function
+            if more_line == "N":
+                break
 write()
